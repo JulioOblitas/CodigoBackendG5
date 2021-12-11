@@ -40,11 +40,41 @@ print(curso['nombre']);
 
 print(edades[1:-1])
 
+valor = curso['skills'][1]['nivel'];
+
+print(valor)
 
 
 
+personas = [{
+    'nombre': 'Eduardo',
+    'nacionalidad': 'peruano',
+    'hobbies':[
+        {
+            'nombre': 'Volar drones',
+            'experiencia': '2 años'
+        },{
+            'nombre':'Programar',
+            'experiencia': '1 mes'
+        }
+    ]
+},{
+    'nombre': 'Juliana',
+    'nacionalidad': 'colombiana',
+    'hobbies':[
+        {
+            'nombre': 'Montar bici',
+            'experiencia': '4 años'
+        },{
+            'nombre':'Bases de datos',
+            'experiencia': '8 mes'
+        }
+    ]
+}]
 
 
 
+nacion = personas[1]['hobbies'];
 
+print(nacion)
 
