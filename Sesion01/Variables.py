@@ -18,17 +18,27 @@ print(type(numero2))
 #declarando arreglos o LIST 
 edades = [10,12,13,14, 'Eduardo', 14.50, False, [1,2] ]
 
-print(edades)
 
 #Json  (JavaScript Object Notation  ) | Diccionario
 curso = {
     'nombre' : 'Backend',
-    'otros' : 'Otros' 
+    'dificultad' : 'Dificil',
+    'skills'  : [
+        {
+            'nombre' :'Base de Datos',
+            'nivel' : 'Intermedio'
+        },
+        {
+            'nombre' :'ORM',
+            'nivel' : 'Avanzado'
+        }
+    ]
 }
 print(curso)
 
 print(curso['nombre']);
 
+print(edades[1:-1])
 
 
 
